@@ -1,5 +1,5 @@
-import XCTest
 import Moxie
+import XCTest
 @testable import MoxieDocs
 
 struct MockList: Mock, List {

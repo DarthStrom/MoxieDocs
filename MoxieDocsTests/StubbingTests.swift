@@ -8,6 +8,10 @@ class MockExampleClass: ExampleProtocol, Mock {
     func foo() -> String {
         return value(forFunction: "foo") ?? ""
     }
+
+    func foo(description: String) {
+        record(function: "foo", wasCalledWith: [description])
+    }
 }
 
 class StubbingTests: XCTestCase {

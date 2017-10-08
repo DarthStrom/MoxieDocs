@@ -11,6 +11,7 @@
 		9643BDA51F8AE7740094C86D /* CreatingMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9643BDA41F8AE7740094C86D /* CreatingMocks.swift */; };
 		9643BDA71F8AE8BF0094C86D /* StubbingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9643BDA61F8AE8BF0094C86D /* StubbingTests.swift */; };
 		9643BDA91F8AE9030094C86D /* Stubbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9643BDA81F8AE9030094C86D /* Stubbing.swift */; };
+		9643BDAD1F8AEAD10094C86D /* VerifyingInvocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9643BDAC1F8AEAD10094C86D /* VerifyingInvocationsTests.swift */; };
 		96464C361F8AE22800131ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96464C351F8AE22800131ABB /* AppDelegate.swift */; };
 		96464C381F8AE22800131ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96464C371F8AE22800131ABB /* ViewController.swift */; };
 		96464C3B1F8AE22800131ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96464C391F8AE22800131ABB /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		9643BDA41F8AE7740094C86D /* CreatingMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingMocks.swift; sourceTree = "<group>"; };
 		9643BDA61F8AE8BF0094C86D /* StubbingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubbingTests.swift; sourceTree = "<group>"; };
 		9643BDA81F8AE9030094C86D /* Stubbing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubbing.swift; sourceTree = "<group>"; };
+		9643BDAC1F8AEAD10094C86D /* VerifyingInvocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyingInvocationsTests.swift; sourceTree = "<group>"; };
 		96464C321F8AE22800131ABB /* MoxieDocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoxieDocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96464C351F8AE22800131ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96464C371F8AE22800131ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +111,8 @@
 				96464C3E1F8AE22800131ABB /* LaunchScreen.storyboard */,
 				96464C391F8AE22800131ABB /* Main.storyboard */,
 				96A6BCC31F8AE31E007EF681 /* Readme.swift */,
-				96464C371F8AE22800131ABB /* ViewController.swift */,
 				9643BDA81F8AE9030094C86D /* Stubbing.swift */,
+				96464C371F8AE22800131ABB /* ViewController.swift */,
 			);
 			path = MoxieDocs;
 			sourceTree = "<group>";
@@ -122,6 +124,7 @@
 				96464C4C1F8AE22800131ABB /* Info.plist */,
 				96464C4A1F8AE22800131ABB /* ReadmeTests.swift */,
 				9643BDA61F8AE8BF0094C86D /* StubbingTests.swift */,
+				9643BDAC1F8AEAD10094C86D /* VerifyingInvocationsTests.swift */,
 			);
 			path = MoxieDocsTests;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9643BDA31F8AE7330094C86D /* CreatingMocksTests.swift in Sources */,
+				9643BDAD1F8AEAD10094C86D /* VerifyingInvocationsTests.swift in Sources */,
 				9643BDA71F8AE8BF0094C86D /* StubbingTests.swift in Sources */,
 				96464C4B1F8AE22800131ABB /* ReadmeTests.swift in Sources */,
 			);

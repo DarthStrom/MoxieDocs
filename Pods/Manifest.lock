@@ -1,0 +1,16 @@
+PODS:
+  - Moxie (0.1.6)
+
+DEPENDENCIES:
+  - Moxie (from `/Users/jason/projects/swift/Moxie`)
+
+EXTERNAL SOURCES:
+  Moxie:
+    :path: /Users/jason/projects/swift/Moxie
+
+SPEC CHECKSUMS:
+  Moxie: d94c5edf5e23cd48e0df2b305a9f379ab7b20f6c
+
+PODFILE CHECKSUM: f6e261d3db0dc5032a36103cd0d6f14566b2f642
+
+COCOAPODS: 1.3.1

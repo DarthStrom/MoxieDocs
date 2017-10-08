@@ -1,0 +1,6 @@
+framework module Pods_MoxieDocsTests {
+  umbrella header "Pods-MoxieDocsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

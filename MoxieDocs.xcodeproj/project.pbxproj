@@ -12,7 +12,9 @@
 		96464C3B1F8AE22800131ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96464C391F8AE22800131ABB /* Main.storyboard */; };
 		96464C3D1F8AE22800131ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96464C3C1F8AE22800131ABB /* Assets.xcassets */; };
 		96464C401F8AE22800131ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96464C3E1F8AE22800131ABB /* LaunchScreen.storyboard */; };
-		96464C4B1F8AE22800131ABB /* MoxieDocsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96464C4A1F8AE22800131ABB /* MoxieDocsTests.swift */; };
+		96464C4B1F8AE22800131ABB /* ReadmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96464C4A1F8AE22800131ABB /* ReadmeTests.swift */; };
+		96A6BCC41F8AE31E007EF681 /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6BCC31F8AE31E007EF681 /* Readme.swift */; };
+		C6C9DF8CECF61DE4A9C24041 /* Pods_MoxieDocsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEF84FB0EEBAA4A328BFA4D /* Pods_MoxieDocsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28586DA36313E5E04BAC5006 /* Pods-MoxieDocsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxieDocsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DEF84FB0EEBAA4A328BFA4D /* Pods_MoxieDocsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoxieDocsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96464C321F8AE22800131ABB /* MoxieDocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoxieDocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96464C351F8AE22800131ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96464C371F8AE22800131ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,8 +38,10 @@
 		96464C3F1F8AE22800131ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96464C411F8AE22800131ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96464C461F8AE22800131ABB /* MoxieDocsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoxieDocsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96464C4A1F8AE22800131ABB /* MoxieDocsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoxieDocsTests.swift; sourceTree = "<group>"; };
+		96464C4A1F8AE22800131ABB /* ReadmeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmeTests.swift; sourceTree = "<group>"; };
 		96464C4C1F8AE22800131ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A6BCC31F8AE31E007EF681 /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
+		DF04D1ED7984ECCF5D732296 /* Pods-MoxieDocsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoxieDocsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,18 +56,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C9DF8CECF61DE4A9C24041 /* Pods_MoxieDocsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E0B327567A9381D778E093A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DEF84FB0EEBAA4A328BFA4D /* Pods_MoxieDocsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96464C291F8AE22800131ABB = {
 			isa = PBXGroup;
 			children = (
 				96464C341F8AE22800131ABB /* MoxieDocs */,
 				96464C491F8AE22800131ABB /* MoxieDocsTests */,
 				96464C331F8AE22800131ABB /* Products */,
+				A32F52DE3FDF3032243F85EA /* Pods */,
+				4E0B327567A9381D778E093A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +95,12 @@
 			isa = PBXGroup;
 			children = (
 				96464C351F8AE22800131ABB /* AppDelegate.swift */,
-				96464C371F8AE22800131ABB /* ViewController.swift */,
-				96464C391F8AE22800131ABB /* Main.storyboard */,
 				96464C3C1F8AE22800131ABB /* Assets.xcassets */,
-				96464C3E1F8AE22800131ABB /* LaunchScreen.storyboard */,
 				96464C411F8AE22800131ABB /* Info.plist */,
+				96464C3E1F8AE22800131ABB /* LaunchScreen.storyboard */,
+				96464C391F8AE22800131ABB /* Main.storyboard */,
+				96A6BCC31F8AE31E007EF681 /* Readme.swift */,
+				96464C371F8AE22800131ABB /* ViewController.swift */,
 			);
 			path = MoxieDocs;
 			sourceTree = "<group>";
@@ -90,10 +108,19 @@
 		96464C491F8AE22800131ABB /* MoxieDocsTests */ = {
 			isa = PBXGroup;
 			children = (
-				96464C4A1F8AE22800131ABB /* MoxieDocsTests.swift */,
 				96464C4C1F8AE22800131ABB /* Info.plist */,
+				96464C4A1F8AE22800131ABB /* ReadmeTests.swift */,
 			);
 			path = MoxieDocsTests;
+			sourceTree = "<group>";
+		};
+		A32F52DE3FDF3032243F85EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28586DA36313E5E04BAC5006 /* Pods-MoxieDocsTests.debug.xcconfig */,
+				DF04D1ED7984ECCF5D732296 /* Pods-MoxieDocsTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96464C521F8AE22800131ABB /* Build configuration list for PBXNativeTarget "MoxieDocsTests" */;
 			buildPhases = (
+				080FCBE70B2F9ED2CCB13DC8 /* [CP] Check Pods Manifest.lock */,
 				96464C421F8AE22800131ABB /* Sources */,
 				96464C431F8AE22800131ABB /* Frameworks */,
 				96464C441F8AE22800131ABB /* Resources */,
+				C113BF7F8450D95BA28AB929 /* [CP] Embed Pods Frameworks */,
+				851E8D1561535F3CAA4F08F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,12 +224,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		080FCBE70B2F9ED2CCB13DC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoxieDocsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851E8D1561535F3CAA4F08F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C113BF7F8450D95BA28AB929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Moxie/Moxie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moxie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96464C2E1F8AE22800131ABB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96464C381F8AE22800131ABB /* ViewController.swift in Sources */,
+				96A6BCC41F8AE31E007EF681 /* Readme.swift in Sources */,
 				96464C361F8AE22800131ABB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96464C4B1F8AE22800131ABB /* MoxieDocsTests.swift in Sources */,
+				96464C4B1F8AE22800131ABB /* ReadmeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +466,7 @@
 		};
 		96464C531F8AE22800131ABB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28586DA36313E5E04BAC5006 /* Pods-MoxieDocsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +484,7 @@
 		};
 		96464C541F8AE22800131ABB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF04D1ED7984ECCF5D732296 /* Pods-MoxieDocsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

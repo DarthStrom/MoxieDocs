@@ -1,6 +1,6 @@
 {
   "name": "Moxie",
-  "version": "0.1.6",
+  "version": "0.2.2",
   "summary": "A mocking library for Swift.",
   "description": "Moxie makes creating mocks easier in Swift.",
   "homepage": "https://github.com/DarthStrom/Moxie",
@@ -11,7 +11,7 @@
   "social_media_url": "http://twitter.com/DarthStrom",
   "source": {
     "git": "https://github.com/DarthStrom/Moxie.git",
-    "tag": "v0.1.6"
+    "tag": "v0.2.2"
   },
   "source_files": "Sources/**/*.swift",
   "platforms": {

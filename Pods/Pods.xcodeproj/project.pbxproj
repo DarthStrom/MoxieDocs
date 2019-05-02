@@ -7,216 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030442DA3EB508DB9F9992E49286D930 /* Moxie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFAC7E39F6D67CE068FC70B2ECE3B63 /* Moxie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1183A4847F0AC43DCBC3534F88A9CAAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		233B9326508E18CF7D44096A6C0E5C19 /* Moxie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4168832B9C0283CE274409E420156707 /* Moxie-dummy.m */; };
-		5055E90AC6C21372A39131794E429378 /* Moxie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C337E0A5453CBA9394D6F1C1AAE33 /* Moxie.swift */; };
-		8FBB930FAFDE8861509AEA177D6C86DF /* Pods-MoxieDocsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8DE0A61FA9102DA388175C43D3908E /* Pods-MoxieDocsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		979A23268CF23153ADE073445BBDF6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AB3EF3825E99292172AEE47862054C65 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED3CE6DA61812155476BECE22B38950 /* Mock.swift */; };
-		DEF85FDD030F3D3DB8D2A1B57E0C6D3F /* MockInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EF34382890F90A4E05914420C7FCF /* MockInvocation.swift */; };
-		EF9939D8D324D07B9D6C40471DEFBA19 /* Pods-MoxieDocsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7458EE7C485A804CE7E95F702DD355C2 /* Pods-MoxieDocsTests-dummy.m */; };
+		2490ABD1EB20E44CFFC0FEFE06635C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3C4325C354A1DA300DD3B38A82DEF1BA /* MockInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A71445A2F276EA73EBD8A2258FC790B /* MockInvocation.swift */; };
+		5E1FF974A837FC28EB0C7521DB7204EB /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC886C1E3CE550D18A079FE25B3DA1A /* Mock.swift */; };
+		7155BF01FC19BDD248EBEE6BC250836C /* Pods-MoxieDocsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1619525989F70FFC69C17311490DAB /* Pods-MoxieDocsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2977C0F7B44872E6BD68DF37744B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D17EE1A8AA7E98CBCB8EF2B3A413696E /* Moxie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5344C52AD325CD98963205FDCBFBE371 /* Moxie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D11AF152AC73E48A7A8F7A7D66E9AB /* Pods-MoxieDocsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E84E408D914F068357EB06907B82960 /* Pods-MoxieDocsTests-dummy.m */; };
+		FB4C062DB1BC068685055C280FCE7B57 /* Moxie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AF95F7CC740DD22C1765B95320C8B /* Moxie.swift */; };
+		FDA8B0AC00810400636144407DB7D058 /* Moxie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9961EDCBE04F5A036CF0A9143E72D1B /* Moxie-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		688DA3A2E55903ADD71EB196E64F1DD8 /* PBXContainerItemProxy */ = {
+		709850A6B72DCB731386FCF7C2BDDB2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FCB26F2EA13B62C521F09846F493E35C;
+			remoteGlobalIDString = 89DB1006402B9FE26E4721B3ABBF5824;
 			remoteInfo = Moxie;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CFAC7E39F6D67CE068FC70B2ECE3B63 /* Moxie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moxie-umbrella.h"; sourceTree = "<group>"; };
-		2ED3CE6DA61812155476BECE22B38950 /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/Moxie/Mock.swift; sourceTree = "<group>"; };
-		3DF06E05D110903A7609CD5923D66D87 /* Moxie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moxie.framework; path = Moxie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41563B6CD84C72FFDEEA09E1C2BB1554 /* Moxie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moxie.xcconfig; sourceTree = "<group>"; };
-		4168832B9C0283CE274409E420156707 /* Moxie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moxie-dummy.m"; sourceTree = "<group>"; };
-		43DB901BE1C78CA0AC2D8CCF37305241 /* Pods-MoxieDocsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoxieDocsTests-resources.sh"; sourceTree = "<group>"; };
-		527D307A9E6A2B5414566B5D900D447A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F8DE0A61FA9102DA388175C43D3908E /* Pods-MoxieDocsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoxieDocsTests-umbrella.h"; sourceTree = "<group>"; };
-		65191D18B315880F38AA113FA756DDF6 /* Moxie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moxie-prefix.pch"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7458EE7C485A804CE7E95F702DD355C2 /* Pods-MoxieDocsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoxieDocsTests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		963365DDE7B52D96B50CC2F2F1DC0F34 /* Pods-MoxieDocsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoxieDocsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		984EF34382890F90A4E05914420C7FCF /* MockInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockInvocation.swift; path = Sources/Moxie/MockInvocation.swift; sourceTree = "<group>"; };
-		A7B663F9A981B2A68D66213635ABD2BD /* Pods-MoxieDocsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoxieDocsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C042860B89E8C602F6ACDF42D2831BD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBF1C29FE3C917D2F2FD2FB80917BFAF /* Pods-MoxieDocsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoxieDocsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D9823006F2D7A82E3A6CF9BC3E0176A2 /* Pods-MoxieDocsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MoxieDocsTests.modulemap"; sourceTree = "<group>"; };
-		E7A91065226F69F16662EDA235656DA8 /* Pods_MoxieDocsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoxieDocsTests.framework; path = "Pods-MoxieDocsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAA30F01FC3D44D022EA9D2E546F4ED /* Pods-MoxieDocsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoxieDocsTests.release.xcconfig"; sourceTree = "<group>"; };
-		EF5C337E0A5453CBA9394D6F1C1AAE33 /* Moxie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moxie.swift; path = Sources/Moxie/Moxie.swift; sourceTree = "<group>"; };
-		F0470BCDB66682351C6A2332163D8174 /* Moxie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Moxie.modulemap; sourceTree = "<group>"; };
-		F25A74602959351188B8A9B5413A278C /* Pods-MoxieDocsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoxieDocsTests-frameworks.sh"; sourceTree = "<group>"; };
+		0443D86209AE6A453B12386F7FC19836 /* Pods_MoxieDocsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MoxieDocsTests.framework; path = "Pods-MoxieDocsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CADC0471549293C91035B4DC44CAF45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A71445A2F276EA73EBD8A2258FC790B /* MockInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockInvocation.swift; path = Sources/Moxie/MockInvocation.swift; sourceTree = "<group>"; };
+		1C6BBD8C2DDC3341EA89E761018DB1A5 /* Moxie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moxie.framework; path = Moxie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B826B5945347FE00A1071B52576245A /* Moxie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moxie.modulemap; sourceTree = "<group>"; };
+		438D5616E476B05BDD4A56236F68D2F5 /* Pods-MoxieDocsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoxieDocsTests.release.xcconfig"; sourceTree = "<group>"; };
+		5344C52AD325CD98963205FDCBFBE371 /* Moxie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moxie-umbrella.h"; sourceTree = "<group>"; };
+		59094C77A63796173CF220E9CFAB86D0 /* Moxie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moxie-prefix.pch"; sourceTree = "<group>"; };
+		5D077F467FD929A67B64AD79474834D1 /* Pods-MoxieDocsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoxieDocsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B4E491EBAFC469453418F0060BF03A0 /* Pods-MoxieDocsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoxieDocsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E84E408D914F068357EB06907B82960 /* Pods-MoxieDocsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoxieDocsTests-dummy.m"; sourceTree = "<group>"; };
+		8961668299CC1BF1CAEA555B2FA87AE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8D9A096E1FEA233A91C300DDCF79B075 /* Moxie.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Moxie.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9498D6CA7A7AAE87EEEF827D3A5D5115 /* Pods-MoxieDocsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoxieDocsTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF8AF95F7CC740DD22C1765B95320C8B /* Moxie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moxie.swift; path = Sources/Moxie/Moxie.swift; sourceTree = "<group>"; };
+		BCC886C1E3CE550D18A079FE25B3DA1A /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/Moxie/Mock.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D689FD5BE576E7DE50576968EB2479FA /* Pods-MoxieDocsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoxieDocsTests-frameworks.sh"; sourceTree = "<group>"; };
+		D9961EDCBE04F5A036CF0A9143E72D1B /* Moxie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Moxie-dummy.m"; sourceTree = "<group>"; };
+		DB1619525989F70FFC69C17311490DAB /* Pods-MoxieDocsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoxieDocsTests-umbrella.h"; sourceTree = "<group>"; };
+		E1E76C202348EF86A34904DD2DE0A75A /* Pods-MoxieDocsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoxieDocsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4C8E82BF73BA60C85CD699CF35C761B /* Pods-MoxieDocsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoxieDocsTests.modulemap"; sourceTree = "<group>"; };
+		E96322406212EB7F510B252BC04FC0B2 /* Moxie-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Moxie-Info.plist"; sourceTree = "<group>"; };
+		EE1FF5B202A10A0009ABB39B500011E3 /* Moxie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moxie.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8213C60BF0DACE49C0B2E7D38D20453C /* Frameworks */ = {
+		976D38F846D2D1FF1F10DC4E05337C1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1183A4847F0AC43DCBC3534F88A9CAAA /* Foundation.framework in Frameworks */,
+				2490ABD1EB20E44CFFC0FEFE06635C78 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A324B6F86FF0E9AB5D4B3C357B3DBDF9 /* Frameworks */ = {
+		A2AE0DADAF8FC50242A398DC3A5234D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				979A23268CF23153ADE073445BBDF6B4 /* Foundation.framework in Frameworks */,
+				CC2977C0F7B44872E6BD68DF37744B59 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B21E9CDAA993C7F72B67F73E193FB4A /* Pods-MoxieDocsTests */ = {
+		1CA23C7FE21065FF776F0BFB793EAC97 /* Pods-MoxieDocsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C042860B89E8C602F6ACDF42D2831BD4 /* Info.plist */,
-				D9823006F2D7A82E3A6CF9BC3E0176A2 /* Pods-MoxieDocsTests.modulemap */,
-				CBF1C29FE3C917D2F2FD2FB80917BFAF /* Pods-MoxieDocsTests-acknowledgements.markdown */,
-				963365DDE7B52D96B50CC2F2F1DC0F34 /* Pods-MoxieDocsTests-acknowledgements.plist */,
-				7458EE7C485A804CE7E95F702DD355C2 /* Pods-MoxieDocsTests-dummy.m */,
-				F25A74602959351188B8A9B5413A278C /* Pods-MoxieDocsTests-frameworks.sh */,
-				43DB901BE1C78CA0AC2D8CCF37305241 /* Pods-MoxieDocsTests-resources.sh */,
-				5F8DE0A61FA9102DA388175C43D3908E /* Pods-MoxieDocsTests-umbrella.h */,
-				A7B663F9A981B2A68D66213635ABD2BD /* Pods-MoxieDocsTests.debug.xcconfig */,
-				EAAA30F01FC3D44D022EA9D2E546F4ED /* Pods-MoxieDocsTests.release.xcconfig */,
+				E4C8E82BF73BA60C85CD699CF35C761B /* Pods-MoxieDocsTests.modulemap */,
+				E1E76C202348EF86A34904DD2DE0A75A /* Pods-MoxieDocsTests-acknowledgements.markdown */,
+				5D077F467FD929A67B64AD79474834D1 /* Pods-MoxieDocsTests-acknowledgements.plist */,
+				6E84E408D914F068357EB06907B82960 /* Pods-MoxieDocsTests-dummy.m */,
+				D689FD5BE576E7DE50576968EB2479FA /* Pods-MoxieDocsTests-frameworks.sh */,
+				9498D6CA7A7AAE87EEEF827D3A5D5115 /* Pods-MoxieDocsTests-Info.plist */,
+				DB1619525989F70FFC69C17311490DAB /* Pods-MoxieDocsTests-umbrella.h */,
+				6B4E491EBAFC469453418F0060BF03A0 /* Pods-MoxieDocsTests.debug.xcconfig */,
+				438D5616E476B05BDD4A56236F68D2F5 /* Pods-MoxieDocsTests.release.xcconfig */,
 			);
 			name = "Pods-MoxieDocsTests";
 			path = "Target Support Files/Pods-MoxieDocsTests";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		60DD3DFAE54A5D359ECB808FE486B7EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				89BD75FA5F34CA781A8D7A3811B693FA /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A140A2885921AAAF6A0DD22038A9CB8A /* Products */,
-				A6E8398BB4C9B9AC30CC3D49D21DE2F3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		89BD75FA5F34CA781A8D7A3811B693FA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FAFC5575DC6525A46250A301D6C731C6 /* Moxie */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A140A2885921AAAF6A0DD22038A9CB8A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3DF06E05D110903A7609CD5923D66D87 /* Moxie.framework */,
-				E7A91065226F69F16662EDA235656DA8 /* Pods_MoxieDocsTests.framework */,
+				1C6BBD8C2DDC3341EA89E761018DB1A5 /* Moxie.framework */,
+				0443D86209AE6A453B12386F7FC19836 /* Pods_MoxieDocsTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6E8398BB4C9B9AC30CC3D49D21DE2F3 /* Targets Support Files */ = {
+		6E6ADE8DECE78B97E1F2FCD548D42B88 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2B21E9CDAA993C7F72B67F73E193FB4A /* Pods-MoxieDocsTests */,
+				B00CBA43E08F028291054CEF762EE6F6 /* Moxie */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD17454261AD4EF1805C377A1480BAB0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				527D307A9E6A2B5414566B5D900D447A /* Info.plist */,
-				F0470BCDB66682351C6A2332163D8174 /* Moxie.modulemap */,
-				41563B6CD84C72FFDEEA09E1C2BB1554 /* Moxie.xcconfig */,
-				4168832B9C0283CE274409E420156707 /* Moxie-dummy.m */,
-				65191D18B315880F38AA113FA756DDF6 /* Moxie-prefix.pch */,
-				1CFAC7E39F6D67CE068FC70B2ECE3B63 /* Moxie-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../../Swift/MoxieDocs/Pods/Target Support Files/Moxie";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FAFC5575DC6525A46250A301D6C731C6 /* Moxie */ = {
+		B00CBA43E08F028291054CEF762EE6F6 /* Moxie */ = {
 			isa = PBXGroup;
 			children = (
-				2ED3CE6DA61812155476BECE22B38950 /* Mock.swift */,
-				984EF34382890F90A4E05914420C7FCF /* MockInvocation.swift */,
-				EF5C337E0A5453CBA9394D6F1C1AAE33 /* Moxie.swift */,
-				BD17454261AD4EF1805C377A1480BAB0 /* Support Files */,
+				BCC886C1E3CE550D18A079FE25B3DA1A /* Mock.swift */,
+				1A71445A2F276EA73EBD8A2258FC790B /* MockInvocation.swift */,
+				AF8AF95F7CC740DD22C1765B95320C8B /* Moxie.swift */,
+				C2931C7D28FE29B56F9DD4A5F15F64CC /* Pod */,
+				B4C41F4DD233F746CC499394CCB3E462 /* Support Files */,
 			);
 			name = Moxie;
-			path = /Users/jason/projects/swift/Moxie;
-			sourceTree = "<absolute>";
+			path = ../../Moxie;
+			sourceTree = "<group>";
+		};
+		B4C41F4DD233F746CC499394CCB3E462 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B826B5945347FE00A1071B52576245A /* Moxie.modulemap */,
+				EE1FF5B202A10A0009ABB39B500011E3 /* Moxie.xcconfig */,
+				D9961EDCBE04F5A036CF0A9143E72D1B /* Moxie-dummy.m */,
+				E96322406212EB7F510B252BC04FC0B2 /* Moxie-Info.plist */,
+				59094C77A63796173CF220E9CFAB86D0 /* Moxie-prefix.pch */,
+				5344C52AD325CD98963205FDCBFBE371 /* Moxie-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MoxieDocs/Pods/Target Support Files/Moxie";
+			sourceTree = "<group>";
+		};
+		C2931C7D28FE29B56F9DD4A5F15F64CC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0CADC0471549293C91035B4DC44CAF45 /* LICENSE */,
+				8D9A096E1FEA233A91C300DDCF79B075 /* Moxie.podspec */,
+				8961668299CC1BF1CAEA555B2FA87AE7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6E6ADE8DECE78B97E1F2FCD548D42B88 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				60DD3DFAE54A5D359ECB808FE486B7EC /* Products */,
+				D1F74DE9D599CBDF2FFB06A96B76A476 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F74DE9D599CBDF2FFB06A96B76A476 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA23C7FE21065FF776F0BFB793EAC97 /* Pods-MoxieDocsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B9C09926FDBEE519864D7D75F331F3DC /* Headers */ = {
+		2954D8DE26D9CFEC9EAA72C9BA206CF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030442DA3EB508DB9F9992E49286D930 /* Moxie-umbrella.h in Headers */,
+				D17EE1A8AA7E98CBCB8EF2B3A413696E /* Moxie-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0558CDA370997CB0C1597B82A5C6D9F /* Headers */ = {
+		5C8BE7BF037E84633485FC01847D8BB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FBB930FAFDE8861509AEA177D6C86DF /* Pods-MoxieDocsTests-umbrella.h in Headers */,
+				7155BF01FC19BDD248EBEE6BC250836C /* Pods-MoxieDocsTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		654DD2468890EFF68DCF73483EBBFBEC /* Pods-MoxieDocsTests */ = {
+		1F094840AFB8B0B79F3658EAEB4A828B /* Pods-MoxieDocsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F525AE1B545F6019BF38F917BA5AE48A /* Build configuration list for PBXNativeTarget "Pods-MoxieDocsTests" */;
+			buildConfigurationList = F46BD24BC25A0CD521D71B1C74DB920A /* Build configuration list for PBXNativeTarget "Pods-MoxieDocsTests" */;
 			buildPhases = (
-				B479CE2163A2583FB8FAC7BAADC122EA /* Sources */,
-				8213C60BF0DACE49C0B2E7D38D20453C /* Frameworks */,
-				F0558CDA370997CB0C1597B82A5C6D9F /* Headers */,
+				5C8BE7BF037E84633485FC01847D8BB2 /* Headers */,
+				AE58474C9FE5A233955460CE228ABC24 /* Sources */,
+				A2AE0DADAF8FC50242A398DC3A5234D2 /* Frameworks */,
+				ED0A1CC1DF3F3B0FF1E5088A40D5A4F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				21BBA5EDC8043CCC8F20350576193F32 /* PBXTargetDependency */,
+				7FFB97A06E01355CD5C8258582199A62 /* PBXTargetDependency */,
 			);
 			name = "Pods-MoxieDocsTests";
 			productName = "Pods-MoxieDocsTests";
-			productReference = E7A91065226F69F16662EDA235656DA8 /* Pods_MoxieDocsTests.framework */;
+			productReference = 0443D86209AE6A453B12386F7FC19836 /* Pods_MoxieDocsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FCB26F2EA13B62C521F09846F493E35C /* Moxie */ = {
+		89DB1006402B9FE26E4721B3ABBF5824 /* Moxie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607D86038DA789A82CCED185D68059A9 /* Build configuration list for PBXNativeTarget "Moxie" */;
+			buildConfigurationList = 3E987D9E8F1C35720C4E6AE0070670A0 /* Build configuration list for PBXNativeTarget "Moxie" */;
 			buildPhases = (
-				2460829855EB5927A7B438DF959D2458 /* Sources */,
-				A324B6F86FF0E9AB5D4B3C357B3DBDF9 /* Frameworks */,
-				B9C09926FDBEE519864D7D75F331F3DC /* Headers */,
+				2954D8DE26D9CFEC9EAA72C9BA206CF9 /* Headers */,
+				1EE3481EB26E0ACDBDF6427132B9B111 /* Sources */,
+				976D38F846D2D1FF1F10DC4E05337C1F /* Frameworks */,
+				8697635600F13A9B08F274F241046197 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -224,263 +238,338 @@
 			);
 			name = Moxie;
 			productName = Moxie;
-			productReference = 3DF06E05D110903A7609CD5923D66D87 /* Moxie.framework */;
+			productReference = 1C6BBD8C2DDC3341EA89E761018DB1A5 /* Moxie.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A140A2885921AAAF6A0DD22038A9CB8A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 60DD3DFAE54A5D359ECB808FE486B7EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCB26F2EA13B62C521F09846F493E35C /* Moxie */,
-				654DD2468890EFF68DCF73483EBBFBEC /* Pods-MoxieDocsTests */,
+				89DB1006402B9FE26E4721B3ABBF5824 /* Moxie */,
+				1F094840AFB8B0B79F3658EAEB4A828B /* Pods-MoxieDocsTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		2460829855EB5927A7B438DF959D2458 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		8697635600F13A9B08F274F241046197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB3EF3825E99292172AEE47862054C65 /* Mock.swift in Sources */,
-				DEF85FDD030F3D3DB8D2A1B57E0C6D3F /* MockInvocation.swift in Sources */,
-				233B9326508E18CF7D44096A6C0E5C19 /* Moxie-dummy.m in Sources */,
-				5055E90AC6C21372A39131794E429378 /* Moxie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B479CE2163A2583FB8FAC7BAADC122EA /* Sources */ = {
+		ED0A1CC1DF3F3B0FF1E5088A40D5A4F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE3481EB26E0ACDBDF6427132B9B111 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9939D8D324D07B9D6C40471DEFBA19 /* Pods-MoxieDocsTests-dummy.m in Sources */,
+				5E1FF974A837FC28EB0C7521DB7204EB /* Mock.swift in Sources */,
+				3C4325C354A1DA300DD3B38A82DEF1BA /* MockInvocation.swift in Sources */,
+				FDA8B0AC00810400636144407DB7D058 /* Moxie-dummy.m in Sources */,
+				FB4C062DB1BC068685055C280FCE7B57 /* Moxie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE58474C9FE5A233955460CE228ABC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D11AF152AC73E48A7A8F7A7D66E9AB /* Pods-MoxieDocsTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21BBA5EDC8043CCC8F20350576193F32 /* PBXTargetDependency */ = {
+		7FFB97A06E01355CD5C8258582199A62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Moxie;
-			target = FCB26F2EA13B62C521F09846F493E35C /* Moxie */;
-			targetProxy = 688DA3A2E55903ADD71EB196E64F1DD8 /* PBXContainerItemProxy */;
+			target = 89DB1006402B9FE26E4721B3ABBF5824 /* Moxie */;
+			targetProxy = 709850A6B72DCB731386FCF7C2BDDB2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13B1B54D3A849096C060E8F8849B2FE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7B663F9A981B2A68D66213635ABD2BD /* Pods-MoxieDocsTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MoxieDocsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MoxieDocsTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4E5880E8E5BEF361833122ABFCBEB528 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41563B6CD84C72FFDEEA09E1C2BB1554 /* Moxie.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Moxie/Moxie-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Moxie/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Moxie/Moxie.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Moxie;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C6A52434E7BAC7A8EE70E451B20AA24E /* Debug */ = {
+		B65713C295A32453F7CFCA87FA46189D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41563B6CD84C72FFDEEA09E1C2BB1554 /* Moxie.xcconfig */;
+			baseConfigurationReference = 6B4E491EBAFC469453418F0060BF03A0 /* Pods-MoxieDocsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8F0EF09EB6395DC678ED78DA5D2362B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438D5616E476B05BDD4A56236F68D2F5 /* Pods-MoxieDocsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9AA92E43D90FD094BB9EAAFBE356E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1FF5B202A10A0009ABB39B500011E3 /* Moxie.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Moxie/Moxie-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Moxie/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Moxie/Moxie-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Moxie/Moxie.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = Moxie;
 				PRODUCT_NAME = Moxie;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC116B3E4F297DC3F30518DC464D4BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1FF5B202A10A0009ABB39B500011E3 /* Moxie.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Moxie/Moxie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Moxie/Moxie-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Moxie/Moxie.modulemap";
+				PRODUCT_MODULE_NAME = Moxie;
+				PRODUCT_NAME = Moxie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,75 +577,37 @@
 			};
 			name = Debug;
 		};
-		DE895E927889D4B43C85B802D2F26E67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAAA30F01FC3D44D022EA9D2E546F4ED /* Pods-MoxieDocsTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MoxieDocsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MoxieDocsTests/Pods-MoxieDocsTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MoxieDocsTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3E987D9E8F1C35720C4E6AE0070670A0 /* Build configuration list for PBXNativeTarget "Moxie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				FC116B3E4F297DC3F30518DC464D4BFF /* Debug */,
+				E9AA92E43D90FD094BB9EAAFBE356E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607D86038DA789A82CCED185D68059A9 /* Build configuration list for PBXNativeTarget "Moxie" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6A52434E7BAC7A8EE70E451B20AA24E /* Debug */,
-				4E5880E8E5BEF361833122ABFCBEB528 /* Release */,
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F525AE1B545F6019BF38F917BA5AE48A /* Build configuration list for PBXNativeTarget "Pods-MoxieDocsTests" */ = {
+		F46BD24BC25A0CD521D71B1C74DB920A /* Build configuration list for PBXNativeTarget "Pods-MoxieDocsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B1B54D3A849096C060E8F8849B2FE1 /* Debug */,
-				DE895E927889D4B43C85B802D2F26E67 /* Release */,
+				B65713C295A32453F7CFCA87FA46189D /* Debug */,
+				C8F0EF09EB6395DC678ED78DA5D2362B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
